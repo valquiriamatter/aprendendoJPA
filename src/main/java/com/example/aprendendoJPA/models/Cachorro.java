@@ -18,7 +18,7 @@ public class Cachorro {
     private String nome;
 
     @Enumerated(EnumType.STRING) //Definindo um ENUM
-    private Raca raca;
+    private Raca racaa;
 
     @ManyToOne //Tornando o relacionamento Bidirecional
     @JoinColumn(name = "pessoa_id")
